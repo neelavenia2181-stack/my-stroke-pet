@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Pet Rock</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>🪨 My Pet Rock</h1>
+        <div id="rock-display">
+            <pre id="ascii-art">
+      _______
+    /       \
+   |  O   O  |
+   |    ∆    |
+    \  ___  /
+      -----
+            </pre>
+        </div>
+        <div id="stats">
+            <p>Hunger: <span id="hunger">0</span>%</p>
+            <p>Happiness: <span id="happiness">100</span>%</p>
+            <p>Age: <span id="age">0</span> days</p>
+        </div>
+        <div id="controls">
+            <button onclick="feed()">🍖 Feed</button>
+            <button onclick="play()">🎮 Play</button>
+            <button onclick="sleep()">💤 Sleep</button>
+            <button onclick="reset()">🔄 Reset</button>
+        </div>
+        <p id="message">Welcome! Take care of your rock.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>   
+
