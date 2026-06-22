@@ -1,24 +1,15 @@
 # 🪨 My Pet Rock
 
-Hi! This is my virtual pet rock. It lives in your browser and never dies (unless you reset it).
+This is my new project MY PET ROCK it works by using html, css for the website and javascript for the functionalities.
 
-I built this to practice JavaScript and see if I could make a "game" without any backend servers. It saves your rock's stats automatically, so you can close the tab and come back later.
+-We can feed the rock
+-We can play with it to make it happy
+-We can make it to sleep
+-It indicate the age as the number of days we played by making it sleep after the play
 
-## 🎮 How to Play
+# How i made it
 
-1. **Open `index.html`** in your browser.
-2. Watch your rock's **Hunger** and **Happiness**.
-3. Click the buttons to keep it alive:
-   - 🍖 **Feed**: Lowers hunger.
-   - 🎮 **Play**: Boosts happiness (but makes it hungry).
-   - 💤 **Sleep**: Makes it older.
-4. If you neglect it, the rock gets sad (look at its face!).
-
-## 🛠️ How I Built It
-
-- **No frameworks**: Just plain HTML, CSS, and JavaScript.
-- **No database**: It uses `localStorage` to remember your rock.
-- **No build steps**: You don't need to install anything. Just open the file.
+I simply used html, css, javascript for the project in which html gives the website and css give a standard structure and style to it and javascript for the functionalities of the pet
 
 
    
